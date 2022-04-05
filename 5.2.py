@@ -1,0 +1,5 @@
+n = input('Diga algo ')
+print(f'O tipo primitivo de {n} é =', (type(n)))
+print(f'{n} é um numero e/ou uma letra? =', n.isalnum())
+print(f'{n} é um numero? = ', n.isnumeric())
+print(f'{n} é uma letra? = ', n.isalpha())
